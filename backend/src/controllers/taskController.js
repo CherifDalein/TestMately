@@ -12,7 +12,7 @@ exports.simulateTasks = async (req, res) => {
 
         try{
             await Task.create({
-                title: `Tache numero #${i}`,
+                title: `Tache numero #${i+1}`,
                 status: 'todo',
                 createdAt: new Date
             });
