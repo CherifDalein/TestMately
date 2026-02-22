@@ -34,7 +34,7 @@ exports.getTasks = async (req, res) => {
         }
 
         const tasks = await Task.find(filter)
-            .sort({createdAt: -1})
+            .sort({createdAt: 1})
             .limit(20);
         
         res.json(tasks);

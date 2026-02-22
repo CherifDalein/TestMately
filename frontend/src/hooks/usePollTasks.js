@@ -17,7 +17,7 @@ export const usePollTasks = () => {
                     if(!lastDateRef.current || prev.length === 0){
                         return data;
                     }
-                    return [...data, ...prev];
+                    return [...prev, ...data];
                 });
             } 
         } catch (err) {
