@@ -36,7 +36,7 @@ npx expo start
 ```
 
 *Scannez le QR Code avec l'application **Expo Go** (Android/iOS).*
-#### Perso: j'avais  deja ANDROID STUDIO installé sur ma machine, donc j'ai exécuté directement sur l'emulateur de celui ci
+#### Perso: j'avais  deja ANDROID STUDIO installé sur ma machine, donc j'ai exécuté directement sur l'emulateur de celui ci (avec npx expo start + option a)
 
 ---
 
